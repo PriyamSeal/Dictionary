@@ -274,6 +274,14 @@
   opacity: 1;
   animation: animate 8s linear infinite;
 }
+@media screen and (max-width: 680px) and (min-width: 0px) {
+  .btn {
+    padding: 6px 32px;
+    width: 85px;
+    display: inline-block;
+    max-height: 80px;
+  }
+}
 @keyframes change {
   0% {
     background-image: url(./img12.jpg);
