@@ -143,6 +143,7 @@
 .center-1 {
   position: fixed;
   bottom: 100px;
+  display: inline-block;
   left: 65%;
   width: 10%;
 }
@@ -208,6 +209,7 @@
 
 .center {
   position: fixed;
+  display: inline-block;
   bottom: 100px;
   left: 30%;
   width: 0%;
