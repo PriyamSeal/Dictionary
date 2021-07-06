@@ -210,7 +210,7 @@
 .center {
   position: fixed;
   display: inline-block;
-  bottom: 100px;
+  bottom: 0px;
   left: 30%;
   width: 0%;
 }
@@ -219,6 +219,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  bottom 0px;
   /* right: 1000%; */
   transform: translate(-50%, 50%);
   width: 150px;
@@ -274,20 +275,13 @@
   opacity: 1;
   animation: animate 8s linear infinite;
 }
-@media screen and (max-width: 680px) and (min-width: 0px) {
-  .btn {
-    padding: 6px 32px;
-    width: 85px;
-    display: inline-block;
-    max-height: 80px;
-  }
-}
+
 @keyframes change {
   0% {
     background-image: url(./img12.jpg);
     /* background-color: deepskyblue; */
     background-size: cover;
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
     background-position: center;
     max-width: 100%;
     height: 700px;
