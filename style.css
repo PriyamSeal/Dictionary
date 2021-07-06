@@ -143,7 +143,7 @@
 .center-1 {
   position: absolute;
   bottom: 100px;
-  left: 60%;
+  left: 65%;
   width: 10%;
 }
 
@@ -275,62 +275,86 @@
 @keyframes change {
   0% {
     background-image: url(./img12.jpg);
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
     background-size: cover;
+    background-position: center;
+    max-width: 500%;
+    height: 590px;
   }
   10% {
     background-image: url(./img2.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
   }
   20% {
     background-image: url(./img3.png);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
-    background-color: #a857eb;
+    /* background-color: #a857eb; */
+    max-width: 100%;
+    height: 700px;
   }
   30% {
     background-image: url(./img5.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
-    background-color: aqua;
+    /* background-color: aqua; */
+    max-width: 100%;
+    height: 700px;
   }
   40% {
     background-image: url(./img4.png);
     background-size: cover;
-    background-color: #f441a5;
+    /* background-color: #f441a5; */
     /* background-clip: content-box; */
     /* background-blend-mode: luminosity; */
     background-position: center;
+    max-width: 100%;
+    height: 700px;
   }
   50% {
     background-image: url(./img6.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
   }
   60% {
     background-image: url(./img7.jpg);
     background-position: center;
-    background-color: gold;
+    /* background-color: gold; */
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
   }
   70% {
     background-image: url(./img8.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
   }
   80% {
     background-image: url(./img9.jpg);
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
+    background-position: center;
   }
   90% {
     background-image: url(./img11.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
+    max-width: 100%;
+    height: 700px;
   }
   100% {
     background-image: url(./img13.jpg);
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    height: 600px;
   }
 }
