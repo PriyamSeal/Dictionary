@@ -141,7 +141,7 @@
 /* Right button */
 
 .center-1 {
-  position: absolute;
+  position: fixed;
   bottom: 100px;
   left: 65%;
   width: 10%;
@@ -207,7 +207,7 @@
 /* Left button */
 
 .center {
-  position: absolute;
+  position: fixed;
   bottom: 100px;
   left: 30%;
   width: 0%;
