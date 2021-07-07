@@ -44,7 +44,7 @@
   font-size: 17px;
   font-weight: 600;
   font-style: italic;
-  position: fixed;
+  position: center;
   /* background-image: url('./img1.jpg') ; */
   /* background: linear-gradient(#e66465, #9198e5, #cce591, #26db20, #a857eb); */
   color: blue;
@@ -142,9 +142,9 @@
 /* Right button */
 
 .center-1 {
-  position: sticky;
-  bottom: 0px;
-  display: inline-block;
+  position: fixed;
+  bottom: 100px;
+  display: block;
   left: 65%;
   width: 10%;
 }
@@ -209,9 +209,9 @@
 /* Left button */
 
 .center {
-  position: sticky;
-  display: inline-block;
-  bottom: 0px;
+  position: fixed;
+  display: block;
+  bottom: 100px;
   left: 30%;
   width: 0%;
 }
