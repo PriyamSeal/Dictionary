@@ -44,7 +44,7 @@
   font-size: 17px;
   font-weight: 600;
   font-style: italic;
-  position: center;
+  position: fixed 10px 20px;
   /* background-image: url('./img1.jpg') ; */
   /* background: linear-gradient(#e66465, #9198e5, #cce591, #26db20, #a857eb); */
   color: blue;
@@ -101,7 +101,6 @@
   display: block;
   width: 100%;
   outline: none;
-
   margin-bottom: 20px;
 }
 
