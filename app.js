@@ -2,7 +2,6 @@ const resultDiv = document.querySelector('.result');
 const wordEle = document.querySelector('#word');
 const phonetics = document.querySelector('.phonetics');
 const audio = document.querySelector('audio');
-
 const wordMeaning = document.querySelector('.word-definition');
 const handle = async (e) => {
   if (e.keyCode === 13) {
@@ -32,6 +31,9 @@ const handle = async (e) => {
       wordMeaning.innerText = data.message;
     }
 
+    // Notun
+
+    // For mobile view
     if (detectMob) {
       //your code here
 
@@ -58,3 +60,5 @@ const handle = async (e) => {
     }
   }
 };
+
+
