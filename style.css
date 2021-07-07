@@ -26,8 +26,10 @@
   border-color: #a857eb;
   box-sizing: border-box;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
   background-color: #eb58d2;
   background-image: url('./img1.jpg');
   background-size: cover;
