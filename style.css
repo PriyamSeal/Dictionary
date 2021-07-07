@@ -44,6 +44,7 @@
   font-size: 17px;
   font-weight: 600;
   font-style: italic;
+  position: fixed;
   /* background-image: url('./img1.jpg') ; */
   /* background: linear-gradient(#e66465, #9198e5, #cce591, #26db20, #a857eb); */
   color: blue;
@@ -141,7 +142,7 @@
 /* Right button */
 
 .center-1 {
-  position: fixed;
+  position: sticky;
   bottom: 100px;
   display: inline-block;
   left: 65%;
@@ -208,7 +209,7 @@
 /* Left button */
 
 .center {
-  position: fixed;
+  position: sticky;
   display: inline-block;
   bottom: 100px;
   left: 30%;
